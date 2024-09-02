@@ -1,0 +1,33 @@
+# 1 for closed loop control, 0 for open loop
+closed_loop: 1
+standup_duration: 1.5
+standup_idle_duration: 10
+
+accel_on: 1
+accel_L: 0.05
+
+# Gait Specifications
+step_length: 0.15
+step_height: 0.06
+stance_height: 0.2
+T_sw: 0.5
+
+cycle: 3
+com_shift: -0.025
+gait_tolx_1: 0.03
+gait_tolx_2: 0.03
+
+pose_x_pid: [0.45, 0.1, 0.005]
+# pose_z_pid: [0.3, 0.2, 0]
+pose_z_pid: [0.0, 0.0, 0.0]
+orient_pitch_pid: [0.1, 0.0, 0.005]
+
+# cutoff frequency of the filter
+filter_x_freq: 5
+filter_z_freq: 10
+filter_pitch_freq: 10
+
+
+# simulation noise
+noise_mode: 0
+filter_mode: 0

@@ -1,0 +1,22 @@
+# Mode
+# 1 for closed loop control, 0 for open loop
+closed_loop: 1
+
+# Gait Specifications
+step_length: 0.13
+step_height: 0.03
+stance_height: 0.2
+T_sw: 1.2
+
+cycle: 10
+gait_tolx_1: 0.024
+gait_tolx_2: 0.024
+
+pose_x_pid: [0.3, 0.2, 0]
+pose_z_pid: [0.3, 0.2, 0]
+orient_pitch_pid: [0.3, 0.1, 0]
+
+# cutoff frequency of the filter
+filter_x_freq: 5
+filter_z_freq: 10
+filter_pitch_freq: 10
